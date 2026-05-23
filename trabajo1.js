@@ -8,7 +8,7 @@ let h1=document.getElementById("h1")
 
 suma.addEventListener("click",r)
 resta.addEventListener("click",r2)
-Mult.addEventListener("click",r3)
+mult.addEventListener("click",r3)
 div.addEventListener("click",r4)
 
 function r(){
@@ -35,6 +35,6 @@ h1.textContent=resultado3
 function r4(){
 let op7=Number(input1.value)
 let op8=Number(input2.value)
-let resultado4=op7+op8
+let resultado4=op7/op8
 h1.textContent=resultado4
 }
